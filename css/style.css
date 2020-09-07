@@ -72,7 +72,7 @@
   /* grid-auto-flow: column; */
 }
 
-ul > * {
+ul>* {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;
@@ -117,4 +117,59 @@ ul > * {
 
 .right_sticky5 a {
   text-decoration: none;
+}
+
+/* banner section starts here */
+.banner-section {
+  grid-template-areas:
+    "lt-side lt-side rt-top rt-top"
+    "lt-side lt-side rt-btm rt-btm";
+}
+
+.lt-side {
+  grid-area: lt-side;
+  height: 19.125rem;
+  /* width: 953px; */
+  background: greenyellow;
+}
+
+.logo-date {
+  justify-content: space-between;
+}
+
+.banner-logo {
+  /* width: 418px; */
+  /* height: 112px; */
+  /* background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw-red.svg) no-repeat; */
+  /* padding: 30px; */
+  position: relative;
+}
+
+.logo-img {
+  width: 418px;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  color: white;
+}
+
+.time {
+  padding: 30px;
+}
+
+.banner-h2 {
+  /* grid-column: lt-side-start / lt-side-end; */
+  /* grid-row: rt-top; */
+}
+
+.rt-top {
+  grid-area: rt-top;
+  height: 9.5625rem;
+  background: yellow;
+}
+
+.rt-btm {
+  grid-area: rt-btm;
+  height: 153px;
+  background: green;
 }

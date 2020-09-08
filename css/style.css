@@ -263,6 +263,27 @@
   padding: 12px;
 }
 
+.discount {
+  /* background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg) no repeat; */
+  z-index: 10;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.offer {
+  z-index: 10;
+  position: absolute;
+  top: 23px;
+  right: 6px;
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .creator a {
   color: #aaa;
   text-decoration: none;
@@ -282,6 +303,7 @@
 .late_grid_pictures {
   width: 16.875rem;
   height: 12.75rem;
+  /* position: absolute; */
   /* padding: 12px; */
 }
 
@@ -291,6 +313,8 @@
   width: 294px;
   height: 318px;
   padding: 12px;
+  position: relative;
+  /* position: relative; */
   /* content-wrapper starts here */
 }
 

@@ -4,6 +4,25 @@
   padding: 0;
 }
 
+/* h4 { */
+/* display: block; */
+/* margin-block-start: 0; */
+/* margin-block-end: 0; */
+/* margin-inline-start: 0; */
+/* margin-inline-end: 0; */
+/* font-weight: bold; */
+/* } */
+
+.list-wrap {
+  /* display: block; */
+  /* list-style-type: disc; */
+  /* margin-block-start: 0; */
+  /* margin-block-end: 0; */
+  /* margin-inline-start: 0; */
+  /* margin-inline-end: 0; */
+  padding-inline-start: 0;
+}
+
 .grid {
   display: grid;
 }
@@ -24,6 +43,9 @@
   justify-content: center;
 }
 
+.jcsb {
+  justify-content: space-between;
+}
 .top-nav {
   grid-template-areas: "news news news news news about";
   height: 32px;
@@ -54,12 +76,15 @@
   grid-area: about;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 10px;
+  padding-right: 0;
 }
 
 .sticky_wrapper {
   grid-template-columns: 5fr 2fr;
   grid-template-rows: repeat(2, 2fr);
+  position: sticky;
+  top: 10px;
+  background-color: #fff;
   /* grid-auto-flow: column; */
 }
 
@@ -72,7 +97,7 @@
   /* grid-auto-flow: column; */
 }
 
-ul > * {
+.main > * {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;
@@ -84,8 +109,10 @@ ul > * {
 }
 
 .sticky_right {
-  grid-auto-flow: column;
+  justify-content: space-around;
   align-items: center;
+  /* grid-auto-flow: column; */
+  /* align-items: center; */
 }
 
 .right_sticky1 {
@@ -95,11 +122,15 @@ ul > * {
 }
 
 .right_sticky2 {
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg)
-    no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg) no-repeat;
   background-size: auto 100%;
   width: 100px;
   height: 45px;
+}
+
+.right_sticky3 {
+  color: #f42;
+  font-size: 1.3125rem;
 }
 
 .tickets {
@@ -157,7 +188,7 @@ ul > * {
 }
 
 .time {
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .banner-heading {
@@ -183,7 +214,85 @@ ul > * {
   background: green;
 }
 
-/* content-wrapper starts here */
+.latest_news_container {
+  width: 74.5rem;
+  height: 251.3125rem;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.latest_n {
+  padding-top: 24px;
+  margin: 30px 0 24px 0;
+  font-size: 1.75rem;
+  font-family: Avalon, sans-serif;
+}
+
+.orange {
+  color: #f42;
+  text-decoration: none;
+}
+
+.orange:hover {
+  color: black;
+}
+
+.orange_deals {
+  font-size: 15px;
+}
+
+.latest_news_picture_grid {
+  grid-template-columns: repeat(4, 1fr);
+  width: 73.5rem;
+  /* height: 32.625rem; */
+  margin: -12px;
+}
+
+.grid_items {
+  display: grid;
+  justify-content: center;
+  width: 18.375rem;
+  height: 15.4375rem;
+}
+
+.stories {
+  color: #555;
+}
+.grid_pictures {
+  width: 18.375rem;
+  height: 10.9375rem;
+  padding: 12px;
+}
+
+.creator a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.creator::after {
+  content: "·";
+}
+
+.latest_deals {
+  margin-top: 40px;
+  width: 72rem;
+  height: 3.125rem;
+}
+
+.late_grid_pictures {
+  width: 16.875rem;
+  height: 12.75rem;
+  /* padding: 12px; */
+}
+
+.late_grid_items {
+  display: grid;
+  justify-content: center;
+  width: 294px;
+  height: 318px;
+  padding: 12px;
+  /* content-wrapper starts here */
+}
 
 .content-wrapper {
   margin: 0 auto;
@@ -209,8 +318,7 @@ ul > * {
 .cat-card {
   height: 275px;
   width: 100%;
-  background-image: linear-gradient(#ffffff40, #0000009c),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-image: linear-gradient(#ffffff40, #0000009c), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
   background-size: 100%;
   position: relative;
 }
@@ -278,8 +386,8 @@ ul > * {
 }
 
 .list-item {
-  padding: 28px 14px;
-  height: 50px;
-  font-size: 18px;
+  padding: 6px 0 6px 14px;
+  height: 45px;
+  /* font-size: 18px; */
   line-height: 19px;
 }

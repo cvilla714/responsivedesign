@@ -72,7 +72,7 @@
   /* grid-auto-flow: column; */
 }
 
-ul>* {
+ul > * {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;
@@ -95,7 +95,8 @@ ul>* {
 }
 
 .right_sticky2 {
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg) no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg)
+    no-repeat;
   background-size: auto 100%;
   width: 100px;
   height: 45px;
@@ -121,16 +122,18 @@ ul>* {
 
 /* banner section starts here */
 .banner-section {
+  grid-template-columns: 33% 33% 33%;
   grid-template-areas:
-    "lt-side lt-side rt-top rt-top"
-    "lt-side lt-side rt-btm rt-btm";
+    "lt-side lt-side rt-top"
+    "lt-side lt-side rt-btm";
 }
 
 .lt-side {
   grid-area: lt-side;
-  height: 19.125rem;
+  height: 27.5625rem;
   /* width: 953px; */
   background: greenyellow;
+  position: relative;
 }
 
 .logo-date {
@@ -157,19 +160,126 @@ ul>* {
   padding: 30px;
 }
 
+.banner-heading {
+  position: absolute;
+  bottom: 4px;
+}
+
 .banner-h2 {
-  /* grid-column: lt-side-start / lt-side-end; */
-  /* grid-row: rt-top; */
+  font-size: 58px;
+  font-weight: bold;
+  margin: 20px 10px;
 }
 
 .rt-top {
   grid-area: rt-top;
-  height: 9.5625rem;
+  height: 13.78125rem;
   background: yellow;
 }
 
 .rt-btm {
   grid-area: rt-btm;
-  height: 153px;
+  height: 13.78125rem;
   background: green;
+}
+
+/* content-wrapper starts here */
+
+.content-wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* category section starts here */
+.category-section {
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+    "cat cat cat"
+    "cat cat cat"
+    "cat cat cat";
+  font-family: "Times New Roman", Georgia, Times, serif;
+}
+
+.cat-block {
+  height: 43.9375rem;
+  margin: 10px;
+  /* background: rgb(211, 211, 211); */
+}
+
+.cat-card {
+  height: 275px;
+  width: 100%;
+  background-image: linear-gradient(#ffffff40, #0000009c),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-size: 100%;
+  position: relative;
+}
+
+/* .grad { */
+/* z-index: 2; */
+/* background-image: linear-gradient(white, black); */
+/* } */
+
+.cat-card-info {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.most-pop {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.cat-topic {
+  font-size: 28px;
+}
+
+.cat-lat-wrap {
+  justify-content: space-between;
+  align-items: center;
+  background: #fff4f2;
+  margin-top: 2px;
+  /* height: 305px; */
+  /* justify-content: space-evenly; */
+}
+
+.cat-lat {
+  padding-left: 13px;
+}
+
+.cat-lat-h4 {
+  font-size: 18px;
+  color: red;
+}
+
+.cat-lat-info {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+
+.cat-img {
+  height: 96px;
+  width: 96px;
+}
+
+.cat-li-div {
+  padding-left: 13px;
+}
+
+.list-item {
+  padding: 28px 14px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 19px;
 }

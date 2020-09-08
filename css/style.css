@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  color: #555;
 }
 
 /* h4 { */
@@ -14,14 +15,12 @@
 /* font-weight: bold; */
 /* } */
 
-.list-wrap {
-  /* display: block; */
-  /* list-style-type: disc; */
-  /* margin-block-start: 0; */
-  /* margin-block-end: 0; */
-  /* margin-inline-start: 0; */
-  /* margin-inline-end: 0; */
-  padding-inline-start: 0;
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.black-lt {
 }
 
 .grid {
@@ -55,16 +54,12 @@
 }
 
 .nav-item {
-  padding: 0 10px;
-}
-
-.nav-item a {
   color: white;
-  text-decoration: none;
 }
 
-.nav-item a:hover {
-  text-decoration: none;
+.nav_a {
+  padding: 0 10px;
+  color: white;
 }
 
 .news {
@@ -345,7 +340,7 @@
 .cat-card {
   height: 275px;
   width: 100%;
-  background-image: linear-gradient(#ffffff40, #0000009c),
+  background-image: linear-gradient(#ffffff40, #000000),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
   background-size: 100%;
   position: relative;
@@ -377,7 +372,13 @@
 }
 
 .cat-topic {
-  font-size: 28px;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.cat-name {
+  font-size: 13px;
+  color: #a5a5a5;
 }
 
 .cat-lat-wrap {
@@ -394,14 +395,15 @@
 }
 
 .cat-lat-h4 {
-  font-size: 18px;
+  font-size: 13px;
   color: red;
 }
 
 .cat-lat-info {
-  font-size: 18px;
+  font-size: 14px;
   color: red;
   font-weight: bold;
+  padding: 5px 0;
 }
 
 .cat-img {
@@ -413,9 +415,24 @@
   padding-left: 13px;
 }
 
+.list-wrap {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.list-item::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .list-item {
-  padding: 6px 0 6px 14px;
-  height: 45px;
-  /* font-size: 18px; */
+  padding: 8px 0;
+  height: 56px;
+  font-size: 15px;
   line-height: 19px;
+  border-bottom: 1px solid #d8d8d8;
 }

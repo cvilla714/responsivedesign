@@ -5,15 +5,6 @@
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
-/* h4 { */
-/* display: block; */
-/* margin-block-start: 0; */
-/* margin-block-end: 0; */
-/* margin-inline-start: 0; */
-/* margin-inline-end: 0; */
-/* font-weight: bold; */
-/* } */
-
 a,
 a:hover {
   text-decoration: none;
@@ -176,12 +167,13 @@ a:hover {
 
 /* banner section starts here */
 .banner-section {
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 33.33% 33.33% 32.33%;
   grid-template-areas:
     "lt-side lt-side rt-top"
     "lt-side lt-side rt-btm";
-  margin: 5px 10px;
+  margin: 5px;
   color: white;
+  grid-gap: 8px;
 }
 
 .lt-side {
@@ -242,9 +234,9 @@ a:hover {
 
 .rt-top {
   grid-area: rt-top;
-  height: 13.125rem;
+  height: 13.4375rem;
   background: yellow;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   background: linear-gradient(to bottom right, #ca0404b0, #000000),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
   position: relative;
@@ -252,9 +244,9 @@ a:hover {
 
 .rt-btm {
   grid-area: rt-btm;
-  height: 13.125rem;
+  height: 13.4375rem;
   background: green;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   background: linear-gradient(to bottom right, #ca0404b0, #000000),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
   position: relative;
@@ -386,6 +378,7 @@ a:hover {
 }
 
 .funding {
+  /* grid-area: funding; */
   height: 18.25rem;
   margin: 10px;
   /* background: blue; */

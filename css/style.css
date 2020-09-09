@@ -187,10 +187,6 @@
   color: white;
 }
 
-.time {
-  /* padding: 30px; */
-}
-
 .banner-heading {
   position: absolute;
   bottom: 4px;
@@ -292,6 +288,12 @@
 
 .creator::after {
   content: "·";
+}
+
+.delete {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: smaller;
 }
 
 .latest_deals {
@@ -414,4 +416,69 @@
   height: 45px;
   /* font-size: 18px; */
   line-height: 19px;
+}
+
+footer {
+  padding: 42px 0 28px 0;
+  background-color: #131313;
+}
+.media {
+  width: 1192px;
+  height: 90px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.social_media {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.media_items {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background: #333;
+  margin-left: 20px;
+}
+
+.copy_links {
+  width: 1192px;
+  height: 19px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.contact_info {
+  width: 1152px;
+  height: 24px;
+  color: #e6e6e6;
+  text-transform: uppercase;
+}
+.contact_items {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.copy_right {
+  background-color: #000000;
+  /* width: 1152px; */
+  height: 97px;
+  padding: 39px 0;
+  /* margin: 0 auto; */
+  /* padding: 0 20px; */
+}
+
+.copy_items {
+  color: #979797;
+}
+
+.last_logo {
+  width: 38px;
+  height: 10px;
+}
+
+.last_img {
+  width: 67px;
+  height: 10px;
 }

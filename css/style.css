@@ -19,6 +19,19 @@ a:hover {
   text-decoration: none;
 }
 
+/* color section */
+.c-black {
+  color: #000;
+}
+
+.gray {
+  color: #aaa;
+}
+
+/* .light { */
+/* color: white; */
+/* } */
+
 /* .txt_n { */
 /* text-decoration: none; */
 /* } */
@@ -61,7 +74,7 @@ a:hover {
 
 .top-nav {
   grid-template-areas: "news news news news news about";
-  height: 32px;
+  height: 2rem;
   background: black;
   font-size: 13px;
 }
@@ -92,8 +105,10 @@ a:hover {
   grid-template-columns: 5fr 2fr;
   grid-template-rows: repeat(2, 2fr);
   position: sticky;
-  top: 10px;
+  top: 0;
   background-color: #fff;
+  z-index: 1;
+  height: 4.6875rem;
   /* grid-auto-flow: column; */
 }
 
@@ -109,8 +124,9 @@ a:hover {
 .main > * {
   display: inline;
   list-style: none;
-  padding: 0 12px 0 12px;
-  font-size: 13px;
+  padding: 18px 12px 0 12px;
+  font-size: 14px;
+  color: #aaa;
 }
 
 .first_one {
@@ -126,15 +142,15 @@ a:hover {
 
 .right_sticky1 {
   background: url(/images/search.png) no-repeat;
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
 }
 
 .right_sticky2 {
   background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg) no-repeat;
   background-size: auto 100%;
-  width: 100px;
-  height: 45px;
+  width: 6.25rem;
+  height: 2.8125rem;
 }
 
 .right_sticky3 {
@@ -154,10 +170,12 @@ a:hover {
   grid-column: 1/-1;
   padding-left: 20px;
   background-color: #ffdd33;
+  height: 1.875rem;
 }
 
 .right_sticky5 a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  font-size: 14px;
 }
 
 /* banner section starts here */
@@ -302,8 +320,8 @@ a:hover {
 .discount {
   /* background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg) no repeat; */
   z-index: 10;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   position: absolute;
   top: 12px;
   right: 12px;
@@ -364,8 +382,8 @@ a:hover {
 .late_grid_items {
   display: grid;
   justify-content: center;
-  width: 294px;
-  height: 318px;
+  width: 18.375rem;
+  height: 19.875rem;
   padding: 12px;
   position: relative;
   /* position: relative; */
@@ -394,7 +412,7 @@ a:hover {
 }
 
 .cat-card {
-  height: 275px;
+  height: 17.1875rem;
   width: 100%;
   background-size: 100%;
   position: relative;
@@ -467,8 +485,8 @@ a:hover {
 }
 
 .cat-img {
-  height: 96px;
-  width: 96px;
+  height: 6rem;
+  width: 6rem;
 }
 
 .cat-li-div {
@@ -491,7 +509,7 @@ a:hover {
 
 .list-item {
   padding: 8px 0;
-  height: 56px;
+  height: 3.5rem;
   font-size: 15px;
   line-height: 19px;
   border-bottom: 1px solid #d8d8d8;
@@ -503,8 +521,8 @@ footer {
 }
 
 .media {
-  width: 1192px;
-  height: 90px;
+  width: 74.5rem;
+  height: 5.625rem;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -516,22 +534,22 @@ footer {
 
 .media_items {
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 2.5rem;
+  width: 2.5rem;
   background: #333;
   margin-left: 20px;
 }
 
 .copy_links {
-  width: 1192px;
-  height: 19px;
+  width: 74.5rem;
+  height: 1.1875rem;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 .contact_info {
-  width: 1152px;
-  height: 24px;
+  width: 72rem;
+  height: 1.5rem;
   color: #e6e6e6;
   text-transform: uppercase;
 }
@@ -544,7 +562,7 @@ footer {
 .copy_right {
   background-color: #000000;
   /* width: 1152px; */
-  height: 97px;
+  height: 6.0625rem;
   padding: 39px 0;
   /* margin: 0 auto; */
   /* padding: 0 20px; */
@@ -555,15 +573,11 @@ footer {
 }
 
 .last_logo {
-  width: 38px;
-  height: 10px;
+  width: 2.375rem;
+  height: 0.625rem;
 }
 
 .last_img {
-  width: 67px;
-  height: 10px;
-}
-
-.light {
-  color: white;
+  width: 4.1875rem;
+  height: 0.625rem;
 }

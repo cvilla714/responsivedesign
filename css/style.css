@@ -102,7 +102,7 @@ a:hover {
   /* grid-auto-flow: column; */
 }
 
-.main>* {
+.main > * {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;
@@ -127,7 +127,8 @@ a:hover {
 }
 
 .right_sticky2 {
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg) no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg)
+    no-repeat;
   background-size: auto 100%;
   width: 100px;
   height: 45px;
@@ -361,6 +362,47 @@ a:hover {
   padding: 0 20px;
 }
 
+/* latest funding section starts here */
+.latest-funding {
+  grid-template-areas: "funding funding funding funding";
+}
+
+.funding {
+  height: 18.25rem;
+  margin: 10px;
+  /* background: blue; */
+  position: relative;
+}
+
+.fund_img_div {
+  background: yellow;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.fund_topic {
+  background: green;
+  height: 39px;
+}
+
+.fund_amount {
+  background: greenyellow;
+  height: 57px;
+}
+
+.fund_specs {
+  background: goldenrod;
+  height: 82px;
+}
+
+.fund_content {
+  background: gray;
+  height: 109px;
+}
+
 /* category section starts here */
 .category-section {
   grid-template-columns: 33% 33% 33%;
@@ -372,9 +414,8 @@ a:hover {
 }
 
 .cat-block {
-  height: 43.9375rem;
+  height: 100%;
   margin: 10px;
-  /* background: rgb(211, 211, 211); */
 }
 
 .cat-card {

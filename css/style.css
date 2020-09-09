@@ -55,8 +55,20 @@ a:hover {
   justify-content: space-between;
 }
 
+.jsb {
+  justify-content: space-between;
+}
+
+.jsa {
+  justify-content: space-around;
+}
+
 .fa_pad {
   padding-right: 16px;
+}
+
+.font_18 {
+  font-size: 18px;
 }
 
 /* navigation bars start here */
@@ -397,7 +409,7 @@ a:hover {
   background: #f42;
   /* text-align: center; */
   padding: 10px 16px 10px 84px;
-  font-size: 18px;
+  /* font-size: 18px; */
   color: white;
   font-weight: bolder;
 }
@@ -410,7 +422,7 @@ a:hover {
 
 .amount {
   font-weight: bold;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 .series {
@@ -421,6 +433,7 @@ a:hover {
 .fund_specs {
   background: #fffaf8;
   padding: 16px;
+  font-size: 13px;
   /* height: 82px; */
 }
 
@@ -438,6 +451,7 @@ a:hover {
   font-size: 15px;
   color: #555555;
   line-height: 20px;
+  height: 109px;
 }
 
 /* category section starts here */

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 /* h4 { */
@@ -13,14 +14,21 @@
 /* font-weight: bold; */
 /* } */
 
-.list-wrap {
-  /* display: block; */
-  /* list-style-type: disc; */
-  /* margin-block-start: 0; */
-  /* margin-block-end: 0; */
-  /* margin-inline-start: 0; */
-  /* margin-inline-end: 0; */
-  padding-inline-start: 0;
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.black-lt {
+  color: #555;
+}
+
+.white {
+  color: white;
+}
+
+.gray-lt {
+  color: #a5a5a5;
 }
 
 .grid {
@@ -46,6 +54,7 @@
 .jcsb {
   justify-content: space-between;
 }
+
 .top-nav {
   grid-template-areas: "news news news news news about";
   height: 32px;
@@ -54,16 +63,12 @@
 }
 
 .nav-item {
-  padding: 0 10px;
-}
-
-.nav-item a {
   color: white;
-  text-decoration: none;
 }
 
-.nav-item a:hover {
-  text-decoration: none;
+.nav_a {
+  padding: 0 10px;
+  color: white;
 }
 
 .news {
@@ -153,18 +158,21 @@
 
 /* banner section starts here */
 .banner-section {
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-areas:
     "lt-side lt-side rt-top"
     "lt-side lt-side rt-btm";
+  margin: 5px 10px;
+  color: white;
 }
 
 .lt-side {
   grid-area: lt-side;
   height: 27.5625rem;
-  /* width: 953px; */
   background: greenyellow;
   position: relative;
+  background: linear-gradient(to bottom right, #ca0404b0, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  background-size: 100%;
 }
 
 .logo-date {
@@ -180,35 +188,58 @@
 }
 
 .logo-img {
-  width: 418px;
+  width: 26.125rem;
   position: absolute;
   top: 20px;
   left: 15px;
   color: white;
 }
 
+.time {
+  padding: 30px;
+}
+
 .banner-heading {
   position: absolute;
   bottom: 4px;
+  margin: 20px 10px;
 }
 
 .banner-h2 {
-  font-size: 58px;
+  font-size: 56px;
   font-weight: bold;
-  margin: 20px 10px;
+  padding: 10px 0;
+}
+
+.banner-h2-rt {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.name-time {
+  color: #9a9a9a;
 }
 
 .rt-top {
   grid-area: rt-top;
-  height: 13.78125rem;
+  height: 13.125rem;
   background: yellow;
+  margin-left: 10px;
+  background: linear-gradient(to bottom right, #ca0404b0, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  position: relative;
 }
 
 .rt-btm {
   grid-area: rt-btm;
-  height: 13.78125rem;
+  height: 13.125rem;
   background: green;
+  margin-left: 10px;
+  background: linear-gradient(to bottom right, #ca0404b0, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  position: relative;
 }
+
+/* banner section ends here */
 
 .latest_news_container {
   width: 74.5rem;
@@ -216,6 +247,7 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+
 .latest_n {
   padding-top: 24px;
   margin: 30px 0 24px 0;
@@ -253,6 +285,7 @@
 .stories {
   color: #555;
 }
+
 .grid_pictures {
   width: 18.375rem;
   height: 10.9375rem;
@@ -344,12 +377,17 @@
 .cat-card {
   height: 275px;
   width: 100%;
-  background-image: linear-gradient(#ffffff40, #0000009c), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
   background-size: 100%;
   position: relative;
+  background-image: linear-gradient(#ffffff40, #000000);
 }
 
-/* .grad { */
+.cat-img-lg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
 /* z-index: 2; */
 /* background-image: linear-gradient(white, black); */
 /* } */
@@ -375,7 +413,13 @@
 }
 
 .cat-topic {
-  font-size: 28px;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.cat-name {
+  font-size: 13px;
+  color: #a5a5a5;
 }
 
 .cat-lat-wrap {
@@ -392,14 +436,15 @@
 }
 
 .cat-lat-h4 {
-  font-size: 18px;
+  font-size: 13px;
   color: red;
 }
 
 .cat-lat-info {
-  font-size: 18px;
+  font-size: 14px;
   color: red;
   font-weight: bold;
+  padding: 5px 0;
 }
 
 .cat-img {
@@ -411,17 +456,33 @@
   padding-left: 13px;
 }
 
+.list-wrap {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.list-item::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .list-item {
-  padding: 6px 0 6px 14px;
-  height: 45px;
-  /* font-size: 18px; */
+  padding: 8px 0;
+  height: 56px;
+  font-size: 15px;
   line-height: 19px;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 footer {
   padding: 42px 0 28px 0;
   background-color: #131313;
 }
+
 .media {
   width: 1192px;
   height: 90px;
@@ -455,6 +516,7 @@ footer {
   color: #e6e6e6;
   text-transform: uppercase;
 }
+
 .contact_items {
   margin-left: 10px;
   font-size: 14px;

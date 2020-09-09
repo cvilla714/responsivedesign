@@ -55,6 +55,11 @@ a:hover {
   justify-content: space-between;
 }
 
+.fa_pad {
+  padding-right: 16px;
+}
+
+/* navigation bars start here */
 .top-nav {
   grid-template-areas: "news news news news news about";
   height: 32px;
@@ -364,6 +369,7 @@ a:hover {
 
 /* latest funding section starts here */
 .latest-funding {
+  grid-template-columns: 25% 25% 25% 25%;
   grid-template-areas: "funding funding funding funding";
 }
 
@@ -383,24 +389,55 @@ a:hover {
   left: 10px;
 }
 
+.fund_img {
+  width: 100%;
+}
+
 .fund_topic {
-  background: green;
-  height: 39px;
+  background: #f42;
+  /* text-align: center; */
+  padding: 10px 16px 10px 84px;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
 }
 
 .fund_amount {
-  background: greenyellow;
-  height: 57px;
+  background: #ffebe8;
+  padding: 10px 16px 10px 84px;
+  /* text-align: center; */
+}
+
+.amount {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.series {
+  color: #525252;
+  font-size: 12px;
 }
 
 .fund_specs {
-  background: goldenrod;
-  height: 82px;
+  background: #fffaf8;
+  padding: 16px;
+  /* height: 82px; */
+}
+
+.label_a {
+  margin: 0 13px 6px 0;
+}
+
+.brief_a {
+  margin: 0 13px 0px 0;
 }
 
 .fund_content {
-  background: gray;
-  height: 109px;
+  background: #fffaf8;
+  padding: 15px;
+  font-size: 15px;
+  color: #555555;
+  line-height: 20px;
 }
 
 /* category section starts here */

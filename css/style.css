@@ -19,6 +19,10 @@ a:hover {
   text-decoration: none;
 }
 
+/* .txt_n { */
+/* text-decoration: none; */
+/* } */
+
 .black-lt {
   color: #555;
 }
@@ -105,12 +109,12 @@ a:hover {
 .main > * {
   display: inline;
   list-style: none;
-  padding: 18px 12px 0 12px;
+  padding: 0 12px 0 12px;
   font-size: 13px;
 }
 
 .first_one {
-  padding: 18px 12px 0 20px;
+  padding: 0 12px 0 20px;
 }
 
 .sticky_right {
@@ -279,13 +283,16 @@ a:hover {
   display: grid;
   justify-content: center;
   width: 18.375rem;
-  height: 15.4375rem;
+  height: 16.5625rem;
 }
 
 .stories {
-  color: #555;
+  padding-left: 12px;
 }
 
+.stories a {
+  color: #000;
+}
 .grid_pictures {
   width: 18.375rem;
   height: 10.9375rem;
@@ -303,6 +310,13 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.discount_stories {
+  padding-left: 0;
+}
+
+.discount_stories a {
+  color: #000;
+}
 .offer {
   z-index: 10;
   position: absolute;
@@ -316,7 +330,11 @@ a:hover {
 .creator a {
   color: #aaa;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
+}
+
+.moving_left {
+  padding-left: 12px;
 }
 
 .creator::after {
@@ -327,6 +345,7 @@ a:hover {
   text-decoration: line-through;
   color: #aaa;
   font-size: smaller;
+  margin-right: 6px;
 }
 
 .latest_deals {
@@ -543,4 +562,8 @@ footer {
 .last_img {
   width: 67px;
   height: 10px;
+}
+
+.light {
+  color: white;
 }

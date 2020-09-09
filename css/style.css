@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  color: #555;
 }
 
 /* h4 { */
@@ -21,6 +20,15 @@ a:hover {
 }
 
 .black-lt {
+  color: #555;
+}
+
+.white {
+  color: white;
+}
+
+.gray-lt {
+  color: #a5a5a5;
 }
 
 .grid {
@@ -340,13 +348,17 @@ a:hover {
 .cat-card {
   height: 275px;
   width: 100%;
-  background-image: linear-gradient(#ffffff40, #000000),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
   background-size: 100%;
   position: relative;
+  background-image: linear-gradient(#ffffff40, #000000);
 }
 
-/* .grad { */
+.cat-img-lg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
 /* z-index: 2; */
 /* background-image: linear-gradient(white, black); */
 /* } */

@@ -22,6 +22,7 @@ a:hover {
 .push_left {
   padding-left: 106px;
 }
+
 /* .light { */
 /* color: white; */
 /* } */
@@ -95,45 +96,46 @@ a:hover {
 }
 
 section for dropdown menu
+
 /* .dropbtn { */
-  /* background-color: #4caf50; */
-  /* color: white; */
-  /* padding: 16px; */
-  /* font-size: 16px; */
-  /* border: none; */
+/* background-color: #4caf50; */
+/* color: white; */
+/* padding: 16px; */
+/* font-size: 16px; */
+/* border: none; */
 /* } */
 /*  */
 /* .dropdown { */
-  /* position: relative; */
-  /* display: inline-block; */
+/* position: relative; */
+/* display: inline-block; */
 /* } */
 /*  */
 /* .dropdown-content { */
-  /* display: none; */
-  /* position: absolute; */
-  /* background-color: #f1f1f1; */
-  /* min-width: 160px; */
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
-  /* z-index: 1; */
+/* display: none; */
+/* position: absolute; */
+/* background-color: #f1f1f1; */
+/* min-width: 160px; */
+/* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+/* z-index: 1; */
 /* } */
 /*  */
 /* .dropdown-content a { */
-  /* color: black; */
-  /* padding: 12px 16px; */
-  /* text-decoration: none; */
-  /* display: block; */
+/* color: black; */
+/* padding: 12px 16px; */
+/* text-decoration: none; */
+/* display: block; */
 /* } */
 /*  */
 /* .dropdown-content a:hover { */
-  /* background-color: #ddd; */
+/* background-color: #ddd; */
 /* } */
 /*  */
 /* .dropdown:hover .dropdown-content { */
-  /* display: block; */
+/* display: block; */
 /* } */
 /*  */
 /* .dropdown:hover .dropbtn { */
-  /* background-color: #3e8e41; */
+/* background-color: #3e8e41; */
 /* } */
 /*  */
 .nav-item {
@@ -183,7 +185,7 @@ section for dropdown menu
   position: relative;
 }
 
-.main > * {
+.main>* {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;
@@ -215,6 +217,7 @@ section for dropdown menu
   display: block;
   /* transition: display ease-in; */
 }
+
 .first_one {
   padding: 0 12px 0 20px;
 }
@@ -233,8 +236,7 @@ section for dropdown menu
 }
 
 .right_sticky2 {
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg)
-    no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/misc/event-bl-tnw2020.svg) no-repeat;
   background-size: auto 100%;
   width: 6.25rem;
   height: 2.8125rem;
@@ -338,8 +340,8 @@ section for dropdown menu
   height: 13.4375rem;
   background: yellow;
   /* margin-left: 10px; */
-  background: linear-gradient(to bottom right, #ca0404b0, #000000),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  background: linear-gradient(to bottom right, #d460609c, #000000),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW2020-feature.jpg");
   position: relative;
 }
 
@@ -348,8 +350,8 @@ section for dropdown menu
   height: 13.4375rem;
   background: green;
   /* margin-left: 10px; */
-  background: linear-gradient(to bottom right, #ca0404b0, #000000),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  background: linear-gradient(to bottom right, #44434380, #000000),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-796x417.jpg");
   position: relative;
 }
 
@@ -403,6 +405,7 @@ section for dropdown menu
 .stories a {
   color: #000;
 }
+
 .grid_pictures {
   width: 18.375rem;
   height: 10.9375rem;
@@ -427,6 +430,7 @@ section for dropdown menu
 .discount_stories a {
   color: #000;
 }
+
 .offer {
   z-index: 10;
   position: absolute;
@@ -914,7 +918,7 @@ footer {
 
   .latest-funding {
     grid-template-columns: 100%;
-    grid-template-areas: "funding" "funding" "funding";
+    grid-template-areas: "funding""funding""funding";
   }
 
   .category-section {

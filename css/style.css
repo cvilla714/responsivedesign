@@ -74,6 +74,10 @@ a:hover {
   justify-content: space-around;
 }
 
+.jce {
+  justify-content: end;
+}
+
 .fa_pad {
   padding-right: 16px;
 }
@@ -484,6 +488,21 @@ section for dropdown menu
 }
 
 /* latest funding section starts here */
+
+.fund_heading {
+  margin: 0 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "fund_h2 fund_seemore";
+}
+
+.fund_seemore {
+  grid-template-areas: "fund_span fund_span fund_span fund_span fund_span";
+}
+
+.fund_span {
+  margin-right: 15px;
+}
+
 .latest-funding {
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-areas: "funding funding funding funding";
@@ -789,6 +808,30 @@ footer {
   .banner-h2-rt {
     font-size: 18px;
   }
+
+  .fund_heading {
+    /* margin: 0 20px; */
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "fund_h2"
+      "fund_seemore";
+  }
+
+  .fund_seemore {
+    justify-content: start;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+
+  .latest-funding {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-areas: "funding funding funding";
+  }
+
+  .funding_none {
+    display: none;
+  }
+
   body {
     width: 74.3125rem;
   }
@@ -834,5 +877,25 @@ footer {
 
   .banner-h2-rt {
     font-size: 32px;
+  }
+
+  .fund_seemore {
+    grid-template-areas:
+      "fund_span"
+      "fund_span"
+      "fund_span";
+  }
+
+  .fs_none {
+    display: none;
+  }
+
+  .fund_span {
+    margin-top: 10px;
+  }
+
+  .latest-funding {
+    grid-template-columns: 100%;
+    grid-template-areas: "funding" "funding" "funding";
   }
 }

@@ -160,7 +160,7 @@ section for dropdown menu
   position: sticky;
   top: 0;
   background-color: #fff;
-  z-index: 1;
+  z-index: 5;
   height: 4.6875rem;
   /* grid-auto-flow: column; */
 }
@@ -403,7 +403,7 @@ section for dropdown menu
 
 .discount {
   /* background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg) no repeat; */
-  z-index: 10;
+  z-index: 3;
   width: 5rem;
   height: 5rem;
   position: absolute;

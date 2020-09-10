@@ -5,24 +5,24 @@ $(window).scroll(function () {
   //console.log(scroll);
   if (scroll >= 5) {
     //console.log('a');
-    $(".right_sticky5 a").addClass("push_left");
+    $(".right_sticky5 a,.main").addClass("push_left");
   } else {
     //console.log('a');
-    $(".right_sticky5 a").removeClass("push_left");
+    $(".right_sticky5 a,.main").removeClass("push_left");
   }
 });
 
-$(window).scroll(function () {
-  let scrolling = $(window).scrollTop();
-  //console.log(scroll);
-  if (scrolling >= 5) {
-    //console.log('a');
-    $(".main").addClass("push_left");
-  } else {
-    //console.log('a');
-    $(".main").removeClass("push_left");
-  }
-});
+// $(window).scroll(function () {
+// let scrolling = $(window).scrollTop();
+// console.log(scroll);
+// if (scrolling >= 5) {
+// console.log("a");
+// $(".main").addClass("push_left");
+// } else {
+// console.log("a");
+// $(".main").removeClass("push_left");
+// }
+// });
 
 $(window).scroll(function () {
   let scrollimg = $(window).scrollTop();
@@ -35,6 +35,6 @@ $(window).scroll(function () {
   }
 });
 
-$(function () {
-  $(".news").menu();
-});
+// $(function () {
+// $(".news").menu();
+// });

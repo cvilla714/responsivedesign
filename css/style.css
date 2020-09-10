@@ -832,6 +832,24 @@ footer {
     display: none;
   }
 
+  .category-section {
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "cat cat"
+      "cat cat"
+      "cat cat"
+      "cat cat"
+      "cat cat";
+  }
+
+  .cat-card {
+    height: 361px;
+  }
+
+  .cat-img-lg {
+    height: 361px;
+  }
+
   body {
     width: 74.3125rem;
   }
@@ -897,5 +915,19 @@ footer {
   .latest-funding {
     grid-template-columns: 100%;
     grid-template-areas: "funding" "funding" "funding";
+  }
+
+  .category-section {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat";
   }
 }

@@ -136,7 +136,7 @@ a:hover {
   position: relative;
 }
 
-.main > * {
+.main>* {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;
@@ -145,7 +145,7 @@ a:hover {
 }
 
 .logo_img {
-  background-color: #f42;
+  /* background-color: #f42; */
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   display: none;
   height: 2.8125rem;
@@ -189,8 +189,7 @@ a:hover {
 }
 
 .tickets {
-  background: #00cccc;
-  padding: 0 12px;
+  background: #0cc;
   border-radius: 3px;
   padding: 5px 20px;
 }
@@ -199,7 +198,7 @@ a:hover {
   grid-auto-flow: row;
   grid-column: 1/-1;
   padding-left: 20px;
-  background-color: #ffdd33;
+  background-color: #fd3;
   height: 1.875rem;
 }
 
@@ -222,7 +221,7 @@ a:hover {
   grid-area: lt-side;
   height: 27.5625rem;
   position: relative;
-  background: linear-gradient(to bottom right, #ca04044a, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-796x417.jpg");
+  background: linear-gradient(to bottom right, #ca04044a, #000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-796x417.jpg");
   background-size: 100%;
 }
 
@@ -271,14 +270,14 @@ a:hover {
 .rt-top {
   grid-area: rt-top;
   height: 13.4375rem;
-  background: linear-gradient(to bottom right, #d460609c, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW2020-feature.jpg");
+  background: linear-gradient(to bottom right, #d460609c, #000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW2020-feature.jpg");
   position: relative;
 }
 
 .rt-btm {
   grid-area: rt-btm;
   height: 13.4375rem;
-  background: linear-gradient(to bottom right, #ca0404ad, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-796x417.jpg");
+  background: linear-gradient(to bottom right, #ca0404ad, #000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-796x417.jpg");
   position: relative;
 }
 
@@ -313,7 +312,6 @@ a:hover {
 .latest_news_picture_grid {
   grid-template-columns: repeat(4, 1fr);
   width: 73.5rem;
-
   margin: -12px;
 }
 
@@ -454,9 +452,7 @@ a:hover {
 
 .fund_topic {
   background: #f42;
-
   padding: 10px 16px 10px 84px;
-
   color: white;
   font-weight: bolder;
 }
@@ -486,14 +482,14 @@ a:hover {
 }
 
 .brief_a {
-  margin: 0 13px 0px 0;
+  margin: 0 13px 0 0;
 }
 
 .fund_content {
   background: #fffaf8;
   padding: 15px;
   font-size: 15px;
-  color: #555555;
+  color: #555;
   line-height: 20px;
   height: 6.8125rem;
 }
@@ -519,7 +515,7 @@ a:hover {
   width: 100%;
   background-size: 100%;
   position: relative;
-  background-image: linear-gradient(#ffffff40, #000000);
+  background-image: linear-gradient(#ffffff40, #000);
 }
 
 .cat-img-lg {
@@ -657,8 +653,7 @@ footer {
 }
 
 .copy_right {
-  background-color: #000000;
-
+  background-color: #000;
   height: 6.0625rem;
   padding: 39px 0;
 }
@@ -815,7 +810,7 @@ footer {
 
   .latest-funding {
     grid-template-columns: 100%;
-    grid-template-areas: "funding" "funding" "funding";
+    grid-template-areas: "funding""funding""funding";
   }
 
   .category-section {
@@ -854,6 +849,7 @@ footer {
     display: flex;
     justify-content: center;
   }
+
   .latest_news_container {
     padding: 0 50px;
   }
@@ -863,15 +859,12 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .grid_pictures {
-    grid-area: main picture;
-  }
-
   .orange {
     font-size: 40px;
     color: #f42;
     text-decoration: none;
   }
+
   .stories {
     grid-area: description;
     grid-column: 2/4;
@@ -884,15 +877,13 @@ footer {
   .creator a {
     font-size: 19px;
   }
-  .authors {
-    grid-area: made by;
-    margin-top: 28px;
-  }
 
   .price {
     margin-bottom: 40px;
   }
+
   .grid_pictures {
+    grid-area: main-picture;
     width: 100%;
     height: 6.25rem;
     padding: 0;
@@ -906,13 +897,8 @@ footer {
     width: 100%;
     grid-template-columns: 15% 83%;
     grid-template-areas:
-      "main picture description"
-      "main picture authors";
-  }
-
-  .latest_news_picture_grid {
-    display: grid;
-    grid-template-columns: 1fr;
+      "main-picture description"
+      "main-picture authors";
   }
 
   .late_grid_pictures {
@@ -932,6 +918,7 @@ footer {
   }
 
   .authors {
+    margin-top: 28px;
     grid-area: prices;
     grid-row: 1/2;
     grid-column: 2/3;
@@ -948,6 +935,7 @@ footer {
   .move_top {
     margin-top: 30px;
   }
+
   .discount {
     display: none;
   }

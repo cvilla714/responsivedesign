@@ -148,9 +148,9 @@ a:hover {
   background-color: #f42;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   display: none;
-  height: 45px;
+  height: 2.8125rem;
   padding: 16px 20px;
-  width: 106px;
+  width: 6.625rem;
   position: absolute;
   top: -13px;
   left: 0;
@@ -171,8 +171,8 @@ a:hover {
 
 .right_sticky1 {
   background: url(/images/search.png) no-repeat;
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
   border-left: 0.5px solid gray;
 }
 
@@ -441,8 +441,8 @@ a:hover {
 
 .fund_img_div {
   background: yellow;
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -495,7 +495,7 @@ a:hover {
   font-size: 15px;
   color: #555555;
   line-height: 20px;
-  height: 109px;
+  height: 6.8125rem;
 }
 
 /* category section starts here */
@@ -750,11 +750,11 @@ footer {
   }
 
   .cat-card {
-    height: 361px;
+    height: 22.5625rem;
   }
 
   .cat-img-lg {
-    height: 361px;
+    height: 22.5625rem;
   }
 
   body {
@@ -782,16 +782,8 @@ footer {
       "rt-btm";
   }
 
-  .lt-side {
-    height: 160px;
-  }
-
-  .rt-top {
-    height: 160px;
-  }
-
-  .rt-btm {
-    height: 160px;
+  .h-160 {
+    height: 10rem;
   }
 
   .logo-date {
@@ -855,8 +847,8 @@ footer {
   }
 
   .bars {
-    height: 45px;
-    width: 45px;
+    height: 2.8125rem;
+    width: 2.8125rem;
     border-left: 0.5px solid gray;
     align-items: center;
     display: flex;
@@ -902,13 +894,13 @@ footer {
   }
   .grid_pictures {
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
     padding: 0;
   }
 
   .grid_items {
     display: grid;
-    height: 100px;
+    height: 6.25rem;
     margin-bottom: 30px;
     justify-content: flex-start;
     width: 100%;
@@ -925,8 +917,8 @@ footer {
 
   .late_grid_pictures {
     grid-area: picture;
-    width: 125px;
-    height: 115px;
+    width: 7.8125rem;
+    height: 7.1875rem;
   }
 
   .discount_stories {
@@ -952,6 +944,10 @@ footer {
   .creator {
     font-size: 21px;
   }
+
+  .move_top {
+    margin-top: 30px;
+  }
   .discount {
     display: none;
   }
@@ -959,9 +955,26 @@ footer {
   .late_grid_items {
     width: 100%;
     margin-bottom: 40px;
-    height: 125px;
+    height: 7.8125rem;
     display: grid;
     grid-template-columns: 12% 88%;
     grid-template-areas: "picture description";
+  }
+
+  .copy_links {
+    display: block;
+    padding: 0 459px;
+  }
+
+  .test {
+    float: left;
+  }
+
+  .another {
+    margin-left: 30px;
+  }
+
+  .left {
+    margin-left: 50px;
   }
 }

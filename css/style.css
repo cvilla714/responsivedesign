@@ -805,4 +805,107 @@ footer {
     display: flex;
     justify-content: center;
   }
+  .latest_news_container {
+    padding: 0 50px;
+    height: 277.5rem;
+  }
+
+  .latest_news_picture_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid_pictures {
+    grid-area: main picture;
+  }
+
+  .orange {
+    font-size: 40px;
+    color: #f42;
+    text-decoration: none;
+  }
+  .stories {
+    grid-area: description;
+    grid-column: 2/4;
+  }
+
+  .stories a {
+    font-size: 23px;
+  }
+
+  .creator a {
+    font-size: 19px;
+  }
+  .authors {
+    grid-area: made by;
+    margin-top: 28px;
+  }
+
+  .price {
+    margin-bottom: 40px;
+  }
+  .grid_pictures {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+  }
+
+  .grid_items {
+    display: grid;
+    height: 100px;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    width: 100%;
+    grid-template-columns: 15% 83%;
+    grid-template-areas:
+      "main picture description"
+      "main picture authors";
+  }
+
+  .latest_news_picture_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .late_grid_pictures {
+    grid-area: picture;
+    width: 125px;
+    height: 115px;
+  }
+
+  .discount_stories {
+    grid-area: description;
+    font-size: 25px;
+  }
+
+  .orange_deals {
+    font-size: 18px;
+    color: #f42;
+  }
+
+  .authors {
+    grid-area: prices;
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+  .delete {
+    font-size: 18px;
+  }
+
+  .creator {
+    font-size: 21px;
+  }
+  .discount {
+    display: none;
+  }
+
+  .late_grid_items {
+    width: 100%;
+    margin-bottom: 40px;
+    height: 125px;
+    display: grid;
+    grid-template-columns: 12% 88%;
+    grid-template-areas: "picture description";
+  }
 }

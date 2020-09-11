@@ -282,10 +282,9 @@ section for dropdown menu
 .lt-side {
   grid-area: lt-side;
   height: 27.5625rem;
-  background: greenyellow;
   position: relative;
-  background: linear-gradient(to bottom right, #ca0404b0, #000000),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  background: linear-gradient(to bottom right, #ca04044a, #000000),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-796x417.jpg");
   background-size: 100%;
 }
 
@@ -338,8 +337,6 @@ section for dropdown menu
 .rt-top {
   grid-area: rt-top;
   height: 13.4375rem;
-  background: yellow;
-  /* margin-left: 10px; */
   background: linear-gradient(to bottom right, #d460609c, #000000),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW2020-feature.jpg");
   position: relative;
@@ -348,9 +345,7 @@ section for dropdown menu
 .rt-btm {
   grid-area: rt-btm;
   height: 13.4375rem;
-  background: green;
-  /* margin-left: 10px; */
-  background: linear-gradient(to bottom right, #44434380, #000000),
+  background: linear-gradient(to bottom right, #ca0404ad, #000000),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-796x417.jpg");
   position: relative;
 }
@@ -513,10 +508,8 @@ section for dropdown menu
 }
 
 .funding {
-  /* grid-area: funding; */
   height: 18.25rem;
   margin: 10px;
-  /* background: blue; */
   position: relative;
 }
 
@@ -612,10 +605,6 @@ section for dropdown menu
   z-index: -1;
 }
 
-/* z-index: 2; */
-/* background-image: linear-gradient(white, black); */
-/* } */
-
 .cat-card-info {
   bottom: 0;
   left: 0;
@@ -651,8 +640,6 @@ section for dropdown menu
   align-items: center;
   background: #fff4f2;
   margin-top: 2px;
-  /* height: 305px; */
-  /* justify-content: space-evenly; */
 }
 
 .cat-lat {
@@ -771,7 +758,7 @@ footer {
 
 /* medium devices starts here */
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .latest_news_picture_grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -814,7 +801,6 @@ footer {
   }
 
   .fund_heading {
-    /* margin: 0 20px; */
     grid-template-columns: 100%;
     grid-template-areas:
       "fund_h2"
@@ -864,11 +850,7 @@ footer {
 }
 
 /* smaller devices */
-@media (max-width: 768px) {
-  /* .latest_news_picture_grid {
-    grid-template-columns: repeat(3, 1fr);
-  } */
-
+@media (max-width: 767px) {
   .banner-section {
     grid-template-columns: 100%;
     grid-template-areas:

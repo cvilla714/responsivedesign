@@ -26,13 +26,6 @@ a:hover {
 .d_none {
   display: none;
 }
-/* .light { */
-/* color: white; */
-/* } */
-
-/* .txt_n { */
-/* text-decoration: none; */
-/* } */
 
 .black-lt {
   color: #555;
@@ -78,6 +71,10 @@ a:hover {
   justify-content: space-around;
 }
 
+.jce {
+  justify-content: end;
+}
+
 .fa_pad {
   padding-right: 16px;
 }
@@ -94,48 +91,6 @@ a:hover {
   font-size: 13px;
 }
 
-section for dropdown menu
-/* .dropbtn { */
-  /* background-color: #4caf50; */
-  /* color: white; */
-  /* padding: 16px; */
-  /* font-size: 16px; */
-  /* border: none; */
-/* } */
-/*  */
-/* .dropdown { */
-  /* position: relative; */
-  /* display: inline-block; */
-/* } */
-/*  */
-/* .dropdown-content { */
-  /* display: none; */
-  /* position: absolute; */
-  /* background-color: #f1f1f1; */
-  /* min-width: 160px; */
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
-  /* z-index: 1; */
-/* } */
-/*  */
-/* .dropdown-content a { */
-  /* color: black; */
-  /* padding: 12px 16px; */
-  /* text-decoration: none; */
-  /* display: block; */
-/* } */
-/*  */
-/* .dropdown-content a:hover { */
-  /* background-color: #ddd; */
-/* } */
-/*  */
-/* .dropdown:hover .dropdown-content { */
-  /* display: block; */
-/* } */
-/*  */
-/* .dropdown:hover .dropbtn { */
-  /* background-color: #3e8e41; */
-/* } */
-/*  */
 .nav-item {
   color: white;
 }
@@ -166,7 +121,6 @@ section for dropdown menu
   background-color: #fff;
   z-index: 5;
   height: 4.6875rem;
-  /* grid-auto-flow: column; */
 }
 
 .sticky_nav_bar {
@@ -176,7 +130,6 @@ section for dropdown menu
 .latest1 {
   position: relative;
   grid-column: span 4;
-  /* grid-auto-flow: column; */
 }
 
 .main {
@@ -191,15 +144,7 @@ section for dropdown menu
   color: #aaa;
 }
 
-/* .corner_logo { */
-/* width: 106px; */
-/* height: 80px; */
-/* } */
-
 .logo_img {
-  /* display: none; */
-  /* width: 66px; */
-  /* height: 16px; */
   background-color: #f42;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   display: none;
@@ -213,8 +158,8 @@ section for dropdown menu
 
 .logo_display {
   display: block;
-  /* transition: display ease-in; */
 }
+
 .first_one {
   padding: 0 12px 0 20px;
 }
@@ -222,8 +167,6 @@ section for dropdown menu
 .sticky_right {
   justify-content: space-around;
   align-items: center;
-  /* grid-auto-flow: column; */
-  /* align-items: center; */
 }
 
 .right_sticky1 {
@@ -258,11 +201,9 @@ section for dropdown menu
   padding-left: 20px;
   background-color: #ffdd33;
   height: 1.875rem;
-  /* padding-left: 106px; */
 }
 
 .right_sticky5 a {
-  /* text-decoration: none; */
   font-size: 14px;
 }
 
@@ -280,9 +221,8 @@ section for dropdown menu
 .lt-side {
   grid-area: lt-side;
   height: 27.5625rem;
-  background: greenyellow;
   position: relative;
-  background: linear-gradient(to bottom right, #ca0404b0, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  background: linear-gradient(to bottom right, #ca04044a, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/robots_wall-796x417.jpg");
   background-size: 100%;
 }
 
@@ -291,10 +231,6 @@ section for dropdown menu
 }
 
 .banner-logo {
-  /* width: 418px; */
-  /* height: 112px; */
-  /* background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw-red.svg) no-repeat; */
-  /* padding: 30px; */
   position: relative;
 }
 
@@ -335,18 +271,14 @@ section for dropdown menu
 .rt-top {
   grid-area: rt-top;
   height: 13.4375rem;
-  background: yellow;
-  /* margin-left: 10px; */
-  background: linear-gradient(to bottom right, #ca0404b0, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  background: linear-gradient(to bottom right, #d460609c, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/TNW2020-feature.jpg");
   position: relative;
 }
 
 .rt-btm {
   grid-area: rt-btm;
   height: 13.4375rem;
-  background: green;
-  /* margin-left: 10px; */
-  background: linear-gradient(to bottom right, #ca0404b0, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Screenshot-2020-09-08-at-8.43.57-PM-e1599580066674-796x419.png");
+  background: linear-gradient(to bottom right, #ca0404ad, #000000), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter-796x417.jpg");
   position: relative;
 }
 
@@ -354,7 +286,6 @@ section for dropdown menu
 
 .latest_news_container {
   width: 74.5rem;
-  height: 237.5rem;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -382,7 +313,7 @@ section for dropdown menu
 .latest_news_picture_grid {
   grid-template-columns: repeat(4, 1fr);
   width: 73.5rem;
-  /* height: 32.625rem; */
+
   margin: -12px;
 }
 
@@ -400,6 +331,7 @@ section for dropdown menu
 .stories a {
   color: #000;
 }
+
 .grid_pictures {
   width: 18.375rem;
   height: 10.9375rem;
@@ -407,7 +339,6 @@ section for dropdown menu
 }
 
 .discount {
-  /* background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg) no repeat; */
   z-index: 3;
   width: 5rem;
   height: 5rem;
@@ -424,6 +355,7 @@ section for dropdown menu
 .discount_stories a {
   color: #000;
 }
+
 .offer {
   z-index: 10;
   position: absolute;
@@ -464,8 +396,6 @@ section for dropdown menu
 .late_grid_pictures {
   width: 16.875rem;
   height: 12.75rem;
-  /* position: absolute; */
-  /* padding: 12px; */
 }
 
 .late_grid_items {
@@ -475,8 +405,6 @@ section for dropdown menu
   height: 19.875rem;
   padding: 12px;
   position: relative;
-  /* position: relative; */
-  /* content-wrapper starts here */
 }
 
 .content-wrapper {
@@ -485,16 +413,29 @@ section for dropdown menu
 }
 
 /* latest funding section starts here */
+
+.fund_heading {
+  margin: 0 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "fund_h2 fund_seemore";
+}
+
+.fund_seemore {
+  grid-template-areas: "fund_span fund_span fund_span fund_span fund_span";
+}
+
+.fund_span {
+  margin-right: 15px;
+}
+
 .latest-funding {
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-areas: "funding funding funding funding";
 }
 
 .funding {
-  /* grid-area: funding; */
   height: 18.25rem;
   margin: 10px;
-  /* background: blue; */
   position: relative;
 }
 
@@ -513,9 +454,9 @@ section for dropdown menu
 
 .fund_topic {
   background: #f42;
-  /* text-align: center; */
+
   padding: 10px 16px 10px 84px;
-  /* font-size: 18px; */
+
   color: white;
   font-weight: bolder;
 }
@@ -523,12 +464,10 @@ section for dropdown menu
 .fund_amount {
   background: #ffebe8;
   padding: 10px 16px 10px 84px;
-  /* text-align: center; */
 }
 
 .amount {
   font-weight: bold;
-  /* font-size: 18px; */
 }
 
 .series {
@@ -540,7 +479,6 @@ section for dropdown menu
   background: #fffaf8;
   padding: 16px;
   font-size: 13px;
-  /* height: 82px; */
 }
 
 .label_a {
@@ -590,10 +528,6 @@ section for dropdown menu
   z-index: -1;
 }
 
-/* z-index: 2; */
-/* background-image: linear-gradient(white, black); */
-/* } */
-
 .cat-card-info {
   bottom: 0;
   left: 0;
@@ -629,8 +563,6 @@ section for dropdown menu
   align-items: center;
   background: #fff4f2;
   margin-top: 2px;
-  /* height: 305px; */
-  /* justify-content: space-evenly; */
 }
 
 .cat-lat {
@@ -726,11 +658,9 @@ footer {
 
 .copy_right {
   background-color: #000000;
-  /* width: 1152px; */
+
   height: 6.0625rem;
   padding: 39px 0;
-  /* margin: 0 auto; */
-  /* padding: 0 20px; */
 }
 
 .copy_items {
@@ -747,12 +677,6 @@ footer {
   height: 0.625rem;
 }
 
-/* @media (min-width: 1024px) { */
-/* body { */
-/* width: 116%; */
-/* } */
-/* } */
-
 .b_left {
   border-left: 0.5px solid gray;
 }
@@ -760,6 +684,77 @@ footer {
 @media (max-width: 1023px) {
   .latest_news_picture_grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .banner-section {
+    grid-template-columns: 33.33% 33.33% 32.33%;
+    grid-template-areas:
+      "lt-side lt-side rt-top"
+      "lt-side lt-side rt-btm";
+  }
+
+  .lt-side {
+    height: 16.875rem;
+  }
+
+  .rt-top {
+    height: 8.125rem;
+  }
+
+  .rt-btm {
+    height: 8.125rem;
+  }
+
+  .logo-date {
+    display: none;
+  }
+
+  .banner-h2 {
+    font-size: 40px;
+  }
+
+  .banner-h2-rt {
+    font-size: 18px;
+  }
+
+  .fund_heading {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "fund_h2"
+      "fund_seemore";
+  }
+
+  .fund_seemore {
+    justify-content: start;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+
+  .latest-funding {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-areas: "funding funding funding";
+  }
+
+  .funding_none {
+    display: none;
+  }
+
+  .category-section {
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "cat cat"
+      "cat cat"
+      "cat cat"
+      "cat cat"
+      "cat cat";
+  }
+
+  .cat-card {
+    height: 361px;
+  }
+
+  .cat-img-lg {
+    height: 361px;
   }
 
   body {
@@ -776,13 +771,75 @@ footer {
   .sticky_right {
     justify-content: flex-end;
   }
-
-  footer {
-    margin-top: 31.875rem;
-  }
 }
 
 @media (max-width: 767px) {
+  .banner-section {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "lt-side"
+      "rt-top"
+      "rt-btm";
+  }
+
+  .lt-side {
+    height: 160px;
+  }
+
+  .rt-top {
+    height: 160px;
+  }
+
+  .rt-btm {
+    height: 160px;
+  }
+
+  .logo-date {
+    display: none;
+  }
+
+  .banner-h2 {
+    font-size: 32px;
+  }
+
+  .banner-h2-rt {
+    font-size: 32px;
+  }
+
+  .fund_seemore {
+    grid-template-areas:
+      "fund_span"
+      "fund_span"
+      "fund_span";
+  }
+
+  .fs_none {
+    display: none;
+  }
+
+  .fund_span {
+    margin-top: 10px;
+  }
+
+  .latest-funding {
+    grid-template-columns: 100%;
+    grid-template-areas: "funding" "funding" "funding";
+  }
+
+  .category-section {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat"
+      "cat";
+  }
+
   .gray {
     display: none;
   }
@@ -807,7 +864,6 @@ footer {
   }
   .latest_news_container {
     padding: 0 50px;
-    height: 277.5rem;
   }
 
   .latest_news_picture_grid {

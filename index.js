@@ -1,4 +1,3 @@
-console.log("hello my friend");
 $(window).scroll(function () {
   let scroll = $(window).scrollTop();
   if (scroll >= 5) {

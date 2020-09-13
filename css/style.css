@@ -146,7 +146,6 @@ a:hover {
 }
 
 .logo_img {
-  /* background-color: #f42; */
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   display: none;
   height: 2.8125rem;
@@ -209,7 +208,7 @@ a:hover {
 
 /* banner section starts here */
 .banner-section {
-  grid-template-columns: 33.33% 33.33% 32.33%;
+  grid-template-columns: 32.33% 32.33% 32.33%;
   grid-template-areas:
     "lt-side lt-side rt-top"
     "lt-side lt-side rt-btm";
@@ -285,7 +284,7 @@ a:hover {
 /* banner section ends here */
 
 .latest_news_container {
-  width: 74.5%;
+  width: 90%;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -311,15 +310,12 @@ a:hover {
 }
 
 .latest_news_picture_grid {
-  grid-template-columns: repeat(4, 1fr);
-  /* width: 73.5rem; */
-  /* margin: -12px; */
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 .grid_items {
   display: grid;
   justify-content: center;
-  width: 18.375rem;
   height: 16.5625rem;
 }
 
@@ -332,7 +328,7 @@ a:hover {
 }
 
 .grid_pictures {
-  width: 18.375rem;
+  width: 100%;
   height: 10.9375rem;
   padding: 12px;
 }
@@ -388,19 +384,17 @@ a:hover {
 
 .latest_deals {
   margin-top: 40px;
-  /* width: 72rem; */
   height: 3.125rem;
 }
 
 .late_grid_pictures {
-  width: 16.875rem;
+  width: 100%;
   height: 12.75rem;
 }
 
 .late_grid_items {
   display: grid;
   justify-content: center;
-  width: 18.375rem;
   height: 19.875rem;
   padding: 12px;
   position: relative;
@@ -615,7 +609,6 @@ footer {
 }
 
 .media {
-  /* width: 74.5rem; */
   height: 5.625rem;
   padding: 0 20px;
   margin: 0 auto;
@@ -635,14 +628,12 @@ footer {
 }
 
 .copy_links {
-  /* width: 74.5rem; */
   height: 1.1875rem;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 .contact_info {
-  /* width: 72rem; */
   height: 1.5rem;
   color: #e6e6e6;
   text-transform: uppercase;
@@ -685,9 +676,7 @@ footer {
   }
 
   .latest_news_picture_grid {
-    /* width: 100%; */
     grid-template-columns: 32.3% 32.3% 32.3%;
-    /* grid-template-columns: repeat(3, 1fr); */
   }
 
   .banner-section {
@@ -760,10 +749,6 @@ footer {
   .cat-img-lg {
     height: 22.5625rem;
   }
-
-  /* body { */
-  /* width: 74.375rem; */
-  /* } */
 
   .right_sticky2,
   .right_sticky3,

@@ -684,6 +684,7 @@ footer {
     z-index: 5;
     height: 4.6875rem;
   }
+
   .wrapper {
     position: relative;
     padding-left: 106px;
@@ -692,6 +693,7 @@ footer {
   .main {
     padding-left: 106px;
   }
+
   .logo_img_nav {
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     display: block;
@@ -812,7 +814,7 @@ footer {
   }
 
   .latest1 {
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .logo_img {
@@ -832,19 +834,16 @@ footer {
   }
 
   .h-160 {
-    height: 10rem;
+    height: 17rem;
   }
 
   .logo-date {
     display: none;
   }
 
-  .banner-h2 {
-    font-size: 2rem;
-  }
-
+  .banner-h2,
   .banner-h2-rt {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   .fund_seemore {
@@ -864,7 +863,7 @@ footer {
 
   .latest-funding {
     grid-template-columns: 100%;
-    grid-template-areas: "funding" "funding" "funding";
+    grid-template-areas: "funding""funding""funding";
   }
 
   .category-section {

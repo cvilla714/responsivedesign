@@ -678,12 +678,20 @@ footer {
 }
 
 @media (max-width: 1023px) {
+  .latest_news_container {
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
   .latest_news_picture_grid {
-    grid-template-columns: repeat(3, 1fr);
+    /* width: 100%; */
+    grid-template-columns: 32.3% 32.3% 32.3%;
+    /* grid-template-columns: repeat(3, 1fr); */
   }
 
   .banner-section {
-    grid-template-columns: 33.33% 33.33% 32.33%;
+    grid-template-columns: 32.33% 32.33% 32.33%;
     grid-template-areas:
       "lt-side lt-side rt-top"
       "lt-side lt-side rt-btm";

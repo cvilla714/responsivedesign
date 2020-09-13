@@ -80,15 +80,16 @@ a:hover {
 }
 
 .font_18 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 /* navigation bars start here */
 .top-nav {
+  grid-template-columns: 14% 14% 14% 14% 14% 30%;
   grid-template-areas: "news news news news news about";
   height: 2rem;
   background: black;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .nav-item {
@@ -140,7 +141,7 @@ a:hover {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #aaa;
 }
 
@@ -203,7 +204,7 @@ a:hover {
 }
 
 .right_sticky5 a {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /* banner section starts here */
@@ -252,13 +253,13 @@ a:hover {
 }
 
 .banner-h2 {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: bold;
   padding: 10px 0;
 }
 
 .banner-h2-rt {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
   padding: 10px 0;
 }
@@ -284,7 +285,7 @@ a:hover {
 /* banner section ends here */
 
 .latest_news_container {
-  width: 74.5rem;
+  width: 74.5%;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -306,13 +307,13 @@ a:hover {
 }
 
 .orange_deals {
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .latest_news_picture_grid {
   grid-template-columns: repeat(4, 1fr);
-  width: 73.5rem;
-  margin: -12px;
+  /* width: 73.5rem; */
+  /* margin: -12px; */
 }
 
 .grid_items {
@@ -360,14 +361,14 @@ a:hover {
   top: 23px;
   right: 6px;
   transform: rotate(45deg);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
 .creator a {
   color: #aaa;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .moving_left {
@@ -387,7 +388,7 @@ a:hover {
 
 .latest_deals {
   margin-top: 40px;
-  width: 72rem;
+  /* width: 72rem; */
   height: 3.125rem;
 }
 
@@ -468,13 +469,13 @@ a:hover {
 
 .series {
   color: #525252;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .fund_specs {
   background: #fffaf8;
   padding: 16px;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .label_a {
@@ -488,7 +489,7 @@ a:hover {
 .fund_content {
   background: #fffaf8;
   padding: 15px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #555;
   line-height: 20px;
   height: 6.8125rem;
@@ -532,7 +533,7 @@ a:hover {
   right: 0;
   z-index: 3;
   color: #fff;
-  font-size: 13px;
+  font-size: 0.8125rem;
   pointer-events: none;
 }
 
@@ -545,12 +546,12 @@ a:hover {
 }
 
 .cat-topic {
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 8px 0;
 }
 
 .cat-name {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #a5a5a5;
 }
 
@@ -566,12 +567,12 @@ a:hover {
 }
 
 .cat-lat-h4 {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: red;
 }
 
 .cat-lat-info {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: red;
   font-weight: bold;
   padding: 5px 0;
@@ -603,7 +604,7 @@ a:hover {
 .list-item {
   padding: 8px 0;
   height: 3.5rem;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 19px;
   border-bottom: 1px solid #d8d8d8;
 }
@@ -614,7 +615,7 @@ footer {
 }
 
 .media {
-  width: 74.5rem;
+  /* width: 74.5rem; */
   height: 5.625rem;
   padding: 0 20px;
   margin: 0 auto;
@@ -634,14 +635,14 @@ footer {
 }
 
 .copy_links {
-  width: 74.5rem;
+  /* width: 74.5rem; */
   height: 1.1875rem;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 .contact_info {
-  width: 72rem;
+  /* width: 72rem; */
   height: 1.5rem;
   color: #e6e6e6;
   text-transform: uppercase;
@@ -649,7 +650,7 @@ footer {
 
 .contact_items {
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .copy_right {
@@ -705,11 +706,11 @@ footer {
   }
 
   .banner-h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .banner-h2-rt {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .fund_heading {
@@ -752,9 +753,9 @@ footer {
     height: 22.5625rem;
   }
 
-  body {
-    width: 74.375rem;
-  }
+  /* body { */
+  /* width: 74.375rem; */
+  /* } */
 
   .right_sticky2,
   .right_sticky3,
@@ -769,6 +770,11 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .latest_news_container {
+    width: 95%;
+    padding: 0;
+    margin: 0 auto;
+  }
   .banner-section {
     grid-template-columns: 100%;
     grid-template-areas:
@@ -786,11 +792,11 @@ footer {
   }
 
   .banner-h2 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .banner-h2-rt {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .fund_seemore {
@@ -810,7 +816,7 @@ footer {
 
   .latest-funding {
     grid-template-columns: 100%;
-    grid-template-areas: "funding""funding""funding";
+    grid-template-areas: "funding" "funding" "funding";
   }
 
   .category-section {
@@ -832,7 +838,7 @@ footer {
   }
 
   .iconn {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #f42;
   }
 
@@ -850,17 +856,14 @@ footer {
     justify-content: center;
   }
 
-  .latest_news_container {
-    padding: 0 50px;
-  }
-
   .latest_news_picture_grid {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0;
   }
 
   .orange {
-    font-size: 40px;
+    font-size: 1.75rem;
     color: #f42;
     text-decoration: none;
   }
@@ -871,11 +874,11 @@ footer {
   }
 
   .stories a {
-    font-size: 23px;
+    font-size: 0.8125rem;
   }
 
   .creator a {
-    font-size: 19px;
+    font-size: 0.75rem;
   }
 
   .price {
@@ -894,8 +897,8 @@ footer {
     height: 6.25rem;
     margin-bottom: 30px;
     justify-content: flex-start;
-    width: 100%;
-    grid-template-columns: 15% 83%;
+    width: 95%;
+    grid-template-columns: 30% 70%;
     grid-template-areas:
       "main-picture description"
       "main-picture authors";
@@ -909,49 +912,54 @@ footer {
 
   .discount_stories {
     grid-area: description;
-    font-size: 25px;
+    font-size: 14px;
   }
 
   .orange_deals {
-    font-size: 18px;
+    font-size: 14px;
     color: #f42;
   }
 
   .authors {
-    margin-top: 28px;
+    margin-top: 45px;
     grid-area: prices;
     grid-row: 1/2;
     grid-column: 2/3;
   }
 
   .delete {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .creator {
-    font-size: 21px;
+    font-size: 13px;
   }
 
   .move_top {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   .discount {
     display: none;
   }
 
+  .move-again {
+    margin-top: 20px;
+  }
+
   .late_grid_items {
     width: 100%;
     margin-bottom: 40px;
     height: 7.8125rem;
+    padding: 0;
     display: grid;
-    grid-template-columns: 12% 88%;
+    grid-template-columns: 32% 68%;
     grid-template-areas: "picture description";
   }
 
   .copy_links {
     display: block;
-    padding: 0 459px;
+    padding: 0 18.6875%;
   }
 
   .test {

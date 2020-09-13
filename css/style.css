@@ -170,7 +170,7 @@ a:hover {
 }
 
 .right_sticky1 {
-  background: url(/images/search.png) no-repeat;
+  background: url(../images/search.png) no-repeat;
   width: 2.8125rem;
   height: 2.8125rem;
   border-left: 0.5px solid gray;
@@ -774,6 +774,10 @@ footer {
       "lt-side"
       "rt-top"
       "rt-btm";
+  }
+
+  .wrapper {
+    display: none;
   }
 
   .h-160 {

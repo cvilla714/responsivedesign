@@ -137,7 +137,7 @@ a:hover {
   position: relative;
 }
 
-.main>* {
+.main > * {
   display: inline;
   list-style: none;
   padding: 18px 12px 0 12px;

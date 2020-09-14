@@ -863,7 +863,7 @@ footer {
 
   .latest-funding {
     grid-template-columns: 100%;
-    grid-template-areas: "funding""funding""funding";
+    grid-template-areas: "funding" "funding" "funding";
   }
 
   .category-section {
@@ -1019,5 +1019,43 @@ footer {
 
   .left {
     margin-left: 50px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 436px) {
+  .sticky_wrapper {
+    grid-template-columns: 75% 25%;
+    grid-template-rows: repeat(2, 2fr);
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 5;
+    height: 4.6875rem;
+  }
+
+  .late_grid_items {
+    width: 100%;
+    margin-bottom: 40px;
+    height: 7.8125rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 32% 68%;
+    grid-template-areas: "picture description";
+  }
+
+  .late_grid_pictures {
+    grid-area: picture;
+    width: 5.8125rem;
+    height: 5.1875rem;
+  }
+
+  .copy_links {
+    display: block;
+    padding: 0px 6.6875%;
+  }
+
+  .contact_items {
+    margin-left: 10px;
+    font-size: 12px;
   }
 }
